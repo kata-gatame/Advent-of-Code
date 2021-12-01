@@ -1,6 +1,10 @@
-# ![star count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021%2Fday-01%2Fstars.json) Sonar Sweep
+<img align="right" style="margin-top:9px" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021%2Fday-01%2Fstars.json">
 
-## Part One
+<p align="left" style="border-bottom: 1px solid #ddd;">
+  <span style="font-size:2em;font-weight:600;">Day 01 - Sonar Sweep</span>
+</p>
+
+### Part One
 You're minding your own business on a ship at sea when the overboard alarm goes off! You rush to see if you can help. Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!
 
 Before you know it, you're inside a submarine the Elves keep ready for situations like this. It's covered in Christmas lights (because of course it is), and it even has an experimental antenna that should be able to track the keys if you can boost its signal strength high enough; there's a little meter that indicates the antenna's signal strength by displaying 0-50 **stars**.
@@ -53,7 +57,10 @@ In this example, there are 7 measurements that are larger than the previous meas
 
 </details>
 
-## Part Two
+<hr style="height:.7px" />
+
+
+### Part Two
 Considering every single measurement isn't as useful as you expected: there's just too much noise in the data.
 
 Instead, consider sums of a **three-measurement sliding window**. Again considering the above example:
