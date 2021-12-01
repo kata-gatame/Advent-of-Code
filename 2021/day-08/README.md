@@ -1,29 +1,22 @@
-<img align="right" style="margin-top:9px" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021%2Fday-08%2Fstars.json">
-
-<p align="left" style="border-bottom: 1px solid #ddd;">
-  <span style="font-size:2em;font-weight:600;">Day 08 - </span>
-</p>
+# Day 08 - 
+![star count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021%2Fday-08%2Fstars.json)
 
 ### Part One
-
 *`<puzzle description here>`*
 
 <details>
   <summary>Answer</summary>
 
   **`<answer here>`**
-
 </details>
 
-<hr style="height:.7px" />
+<hr/>
 
 ### Part Two
-
 *`<puzzle description here>`*
 
 <details>
   <summary>Answer</summary>
 
   **`<answer here>`**
-
 </details>

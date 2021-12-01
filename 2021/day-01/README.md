@@ -1,8 +1,5 @@
-<img align="right" style="margin-top:9px" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021%2Fday-01%2Fstars.json">
-
-<p align="left" style="border-bottom: 1px solid #ddd;">
-  <span style="font-size:2em;font-weight:600;">Day 01 - Sonar Sweep</span>
-</p>
+# Day 01 - Sonar Sweep
+![star count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021%2Fday-01%2Fstars.json)
 
 ### Part One
 You're minding your own business on a ship at sea when the overboard alarm goes off! You rush to see if you can help. Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!
