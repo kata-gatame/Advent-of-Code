@@ -9,6 +9,8 @@ on:
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-steps:
-  - name: Check Commit Message
-  run: echo ${{ github.event.commits[0].message }}.
+jobs:
+  my_first_job:
+    steps:
+      - name: Check Commit Message
+      run: echo ${{ github.event.commits[0].message }}.
