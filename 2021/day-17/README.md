@@ -1,4 +1,4 @@
-# advent of code - day 17 ![star count](https://img.shields.io/badge/Stars-0%2F2-red)
+# ![star count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021%2Fday-17%2Fstars.json)
 
 ## part one
 
