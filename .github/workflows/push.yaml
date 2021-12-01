@@ -1,0 +1,17 @@
+name: Adjust Star Counts
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  adjust:
+    name: Adjust Star Counts
+    steps:
+      - name: Check Commit Message
+      run: echo ${{ github.event.commits[0].message }}.
