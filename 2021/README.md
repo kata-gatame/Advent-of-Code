@@ -1,5 +1,5 @@
 # Advent of Code 2021
-![star count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021%2Fstars.json)
+![star count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021/stars.json)
 
 ## Description
 You're minding your own business on a ship at sea when the overboard alarm goes off! You rush to see if you can help. Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!

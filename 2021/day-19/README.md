@@ -1,5 +1,5 @@
 # Day 19 - 
-![star count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021%2Fday-19%2Fstars.json)
+![star count](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/kata-gatame/advent-of-code/main/2021/day-19/stars.json)
 
 ### Part One
 *`<puzzle description here>`*
