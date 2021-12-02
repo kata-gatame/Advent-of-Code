@@ -50,12 +50,10 @@ In this example, there are 7 measurements that are larger than the previous meas
 <details>
   <summary>Answer</summary>
 
-  **`1521`**
-
+  Your puzzle answer was **`1521`**.
 </details>
 
-<hr style="height:.7px" />
-
+<hr/>
 
 ### Part Two
 Considering every single measurement isn't as useful as you expected: there's just too much noise in the data.
@@ -97,8 +95,7 @@ In this example, there are **`5`** sums that are larger than the previous sum.
 Consider sums of a three-measurement sliding window. **How many sums are larger than the previous sum?**
 
 <details>
-  <summary>Answer</summary>  
+  <summary>Answer</summary>
 
-  **`1543`**
-
+  Your puzzle answer was **`1543`**.
 </details>
