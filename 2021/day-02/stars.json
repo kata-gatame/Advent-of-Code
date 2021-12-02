@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "label": "stars",
-    "message": "0\/2",
-    "color": "critical",
+    "message": "2\/2",
+    "color": "brightgreen",
     "style": "for-the-badge"
 }

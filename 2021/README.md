@@ -15,3 +15,4 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | Day | Title                           | Stars |
 |-----|---------------------------------|-------|
 | 01  | [Sonar Sweep](day-01/README.md) | ★ ★  |
+| 02  | [Dive!](day-02/README.md)       | ★ ★  |
