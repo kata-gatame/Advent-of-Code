@@ -1,50 +1,53 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
-int findIncreases(int *array, int size, int window)
+int findIncreases(vector<int> data)
 {
-    int prevSum{0};
-    int count{0};
- 
-    for (int i = 0; i < size - window + 1; i++) {
-        int currentSum = 0;
+	int prevSum{data[0] + data[1] + data[2]};
+	int count{0};
+	int i{0};
 
-        for (int j = 0; j < window; j++)
-            currentSum = currentSum + array[i + j];
-        
-        if (currentSum > prevSum)
-            count++;
-        
-        prevSum = currentSum;
-    }
-    return count;
+	while (i < data.size())
+	{
+		int currentSum{data[i] + data[i+1] + data[i+2]};
+
+		if (currentSum < 0)
+			return count;
+
+		if (currentSum > prevSum)
+			count++;
+
+		prevSum = currentSum;
+		i++;
+	}
+	return count;
 }
 
 int main ()
 {
-    int array[1999];
-    short i{0};
+	ifstream input ("input.txt");
+	string depth;
+	vector<int> data;
+	int index{0};
 
-    string line; 
-    ifstream input("input.txt"); 
-    if (input.is_open())
-    {
-        while (! input.eof() )
-        {
-            getline(input, line);
-            array[i] = stoi(line);
-            i++;
-        }
-        input.close();
-    }
-    else cout << "Unable to open file";
-    
-    int w = 3;
-    int s = sizeof(array) / sizeof(array[0]);
-    cout << findIncreases(array, s, w);
+	if (input.is_open())
+	{
+		while (!input.eof())
+		{
+			getline(input, depth);
+			data.push_back(stoi(depth));
+			index++;
+		}
+		input.close();
+	}
+	else
+		cout << "Unable to open file";
 
-    return 0;
+	cout << findIncreases(data);
+
+	return 0;
 }

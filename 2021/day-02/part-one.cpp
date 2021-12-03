@@ -1,60 +1,63 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
-string getDirection(string command) {
-    return command.substr(0, command.find(' '));
-}
-
-int getDistance(string command) {
-    size_t i{0};
-    for (; i < command.length(); i++){ if (isdigit(command[i])) break; }
-    command = command.substr(i, command.length() - i);
-    return atoi(command.c_str());
-}
-
-void functionX(string *array, int *x, int *y)
+string getDirection(string command)
 {
-    string command{array[0]};
-    int i{0};
-
-    while (i < 1000) {
-        string movementDirection = getDirection(array[i]);
-        int movementDistance = getDistance(array[i]);
-
-        if (movementDirection == "forward") *x += movementDistance;
-        if (movementDirection == "down") *y += movementDistance;
-        if (movementDirection == "up") *y -= movementDistance;
-
-        i++;
-    }
+	return command.substr(0, command.find(' '));
 }
 
-int main() {
-    ifstream input ("input.txt");
-    string command;
-    string array[999];
-    int index{0}, x{0}, y{0};
+int getDistance(string command)
+{
+	size_t i{0};
+	for (; i < command.length(); i++) { if (isdigit(command[i])) break; }
+	command = command.substr(i, command.length() - i);
+	return atoi(command.c_str());
+}
 
-    if (input.is_open())
-    {
-        while (! input.eof() )
-        {
-            getline(input, command);
-            array[index] = command;
-            index++;
-        }
-        input.close();
-    }
-    else
-    {
-        cout << "Unable to open file";
-    }
+void calculate(vector<string> data, int *x, int *y)
+{
+	string command{data[0]};
+	int i{0};
 
-    functionX(array, &x, &y);
-    cout << x*y;
+	while (i < data.size())
+	{
+		string movementDirection = getDirection(data[i]);
+		int movementDistance = getDistance(data[i]);
 
-    return 0;
+		if (movementDirection == "forward") *x += movementDistance;
+		if (movementDirection == "down") *y += movementDistance;
+		if (movementDirection == "up") *y -= movementDistance;
+
+		i++;
+	}
+}
+
+int main()
+{
+	ifstream input ("input.txt");
+	string command;
+	vector<string> data;
+	int index{0}, x{0}, y{0};
+
+	if (input.is_open())
+	{
+		while (! input.eof() )
+		{
+			getline(input, command);
+			data.push_back(command);
+			index++;
+		}
+		input.close();
+	}
+	else
+		cout << "Unable to open file";
+
+	calculate(data, &x, &y);
+	cout << x*y;
+
+	return 0;
 }

@@ -1,47 +1,45 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
-int findIncrease(int *array)
+int findIncrease(vector<string> data)
 {
-    int prevDepth{array[0]};
-    int count{0};
-    int i{0};
-    
-    while (i < 2000) {
-        if (array[i] > prevDepth )
-            count++;
-        prevDepth = array[i];
-        i++;        
-    }
-    return count;
+	int count{0};
+	int i{0};
+	
+	while (i < data.size())
+	{
+		if (data[i] > data[i-1])
+			count++
+		i++;
+	}
+	return count;
 }
 
-int main () {
-    ifstream input ("input.txt");
-    string depth;
+int main ()
+{
+	ifstream input ("input.txt");
+	string depth;
+	vector<string> data;
+	int index{0};
 
-    int array[1999];
-    int index{0};
+	if (input.is_open())
+	{
+		while (!input.eof())
+		{
+			getline(input, depth);
+			data.push_back(depth);
+			index++;
+		}
+		input.close();
+	}
+	else
+		cout << "Unable to open file";
 
-    if (input.is_open())
-    {
-        while (! input.eof() )
-        {
-            getline (input, depth);
-            array[index] = stoi(depth);
-            index++;
-        }
-        input.close();
-    }
-    else
-    {
-        cout << "Unable to open file";
-    }
+	cout << findIncrease(data);
 
-    cout << findIncrease(array);
-
-    return 0;
+	return 0;
 }
