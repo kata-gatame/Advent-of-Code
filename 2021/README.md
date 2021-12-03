@@ -16,3 +16,4 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 |-----|---------------------------------|-------|
 | 01  | [Sonar Sweep](day-01/)          | ★ ★  |
 | 02  | [Dive!](day-02/)                | ★ ★  |
+| 02  | [Binary Diagnostic](day-03/)    | ★ ★  |
