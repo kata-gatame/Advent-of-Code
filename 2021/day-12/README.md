@@ -7,7 +7,7 @@
 <details>
   <summary>Answer</summary>
 
-  **`<answer here>`**
+  Your puzzle answer was **``**.
 </details>
 
 <hr style="height:.7px" />
@@ -18,5 +18,5 @@
 <details>
   <summary>Answer</summary>
 
-  **`<answer here>`**
+  Your puzzle answer was **``**.
 </details>
