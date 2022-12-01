@@ -1,8 +1,3 @@
-def sort_index(lst, rev=True):
-    index = range(len(lst))
-    s = sorted(index, reverse=rev, key=lambda i: lst[i])
-    return s
-    
 # f = open('2022\\day-01\\test-data.txt', 'r')
 f = open('2022\\day-01\\input.txt', 'r')
 
