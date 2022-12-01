@@ -5,11 +5,11 @@
 ## Participation Year
 
 <a href="https://github.com/kata-gatame/advent-of-code/tree/main/2021">
-<img align="left" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021/stars.json">
+<img align="left" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2021%2Fstars.json">
 </a>
 
 <a href="https://github.com/kata-gatame/advent-of-code/tree/main/2022">
-<img align="left" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2022/stars.json">
+<img align="left" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2022%2Fstars.json">
 </a>
 <br />
 
