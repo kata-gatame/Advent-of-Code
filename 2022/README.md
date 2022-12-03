@@ -12,7 +12,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ## Daily Puzzles
 
-| Day | Title                                   | Stars |
-|-----|-----------------------------------------|-------|
-| 01  | [Calorie Counting](day-01/)             | ★ ★  |
-| 02  | [Rock Paper Scissors](day-02/)          | ★ ★  |
+| Day | Title                                       | Stars |
+|-----|---------------------------------------------|-------|
+| 01  | [Calorie Counting](day-01/)                 | ★ ★  |
+| 02  | [Rock Paper Scissors](day-02/)              | ★ ★  |
+| 03  | [Rucksack Reorganization](day-03/)          | ★ ★  |
