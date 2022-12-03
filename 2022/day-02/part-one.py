@@ -1,5 +1,5 @@
-# f = open('2022\\day-02\\test-data.txt', 'r')
-f = open('2022\\day-02\\input.txt', 'r')
+# f = open('2022\\day-02\\data\\test-data.txt', 'r')
+f = open('2022\\day-02\\data\\input.txt', 'r')
 
 data = f.readlines()
 
