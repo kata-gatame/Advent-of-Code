@@ -18,3 +18,4 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | 02  | [Rock Paper Scissors](day-02/)              | ★ ★  |
 | 03  | [Rucksack Reorganization](day-03/)          | ★ ★  |
 | 04  | [Camp Cleanup](day-04/)                     | ★ ★  |
+| 05  | [Supply Stacks](day-05/)                    | ★ ★  |
