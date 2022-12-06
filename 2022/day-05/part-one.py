@@ -12,15 +12,13 @@ def build():
             stacks[l].append(line[l])
         if line == '\n':
             break
-
     return [x for x in stacks if x]
 
 def move(warehouse):
     for line in data:
         matches = re.search(regex, line)
         if matches:
-            a, s, d = int(matches.group(1)), int(matches.group(2)), int(matches.group(3))
-            x = 1
+            a, s, d, x = int(matches.group(1)), int(matches.group(2)), int(matches.group(3)), 1
             while x <= a:
                 if warehouse[s-1]:
                     crate = warehouse[s-1].pop(0)
