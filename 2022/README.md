@@ -19,3 +19,4 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | 03  | [Rucksack Reorganization](day-03/)          | ★ ★  |
 | 04  | [Camp Cleanup](day-04/)                     | ★ ★  |
 | 05  | [Supply Stacks](day-05/)                    | ★ ★  |
+| 06  | [Tuning Trouble](day-06/)                   | ★ ★  |
