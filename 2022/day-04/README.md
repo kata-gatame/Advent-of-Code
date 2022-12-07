@@ -53,6 +53,8 @@ Some of the pairs have noticed that one of their assignments **fully contains** 
   <summary>Answer</summary>
 
   Your puzzle answer was **`433`**.
+
+  (*[solution](part-one.py)*)
 </details>
 
 ## Part Two
@@ -74,4 +76,6 @@ So, in this example, the number of overlapping assignment pairs is `4`.
   <summary>Answer</summary>
 
   Your puzzle answer was **`852`**.
+
+  (*[solution](part-two.py)*)
 </details>

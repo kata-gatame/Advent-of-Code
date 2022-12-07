@@ -71,6 +71,8 @@ The Elves just need to know **which crate will end up on top of each stack**; in
   <summary>Answer</summary>
 
   Your puzzle answer was **`WSFTMRHPP`**.
+
+  (*[solution](part-one.py)*)
 </details>
 
 ## Part Two
@@ -137,4 +139,6 @@ Before the rearrangement process finishes, update your simulation so that the El
   <summary>Answer</summary>
 
   Your puzzle answer was **`GSLCMFBRP`**.
+
+  (*[solution](part-two.py)*)
 </details>

@@ -41,6 +41,8 @@ Find the Elf carrying the most Calories. **How many total Calories is that Elf c
   <summary>Answer</summary>
 
   Your puzzle answer was **`67633`**.
+
+  (*[solution](part-one.py)*)
 </details>
 
 ## Part Two
@@ -57,4 +59,6 @@ Find the top three Elves carrying the most Calories. **How many Calories are tho
   <summary>Answer</summary>
 
   Your puzzle answer was **`199628`**.
+
+  (*[solution](part-two.py)*)
 </details>

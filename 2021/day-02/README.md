@@ -1,10 +1,11 @@
-# Day 02 - Dive!
-![star count](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/kata-gatame/advent-of-code/main/2021/day-02/stars.json)
+# --- Day 2: Dive! ---
 
-### Part One
+## Part One
+
 Now, you need to figure out how to pilot this thing.
 
 It seems like the submarine can take a series of commands like `forward 1`, `down 2`, or `up 3`:
+
 - `forward X` increases the horizontal position by X units.
 - `down X` **increases** the depth by `X` units.
 - `up X` **decreases** the depth by `X` units.
@@ -13,7 +14,7 @@ Note that since you're on a submarine, `down` and `up` affect your **depth**, an
 
 The submarine seems to already have a planned course (your puzzle input). You should probably figure out where it's going. For example:
 
-```
+```text
 forward 5
 down 5
 forward 8
@@ -39,11 +40,12 @@ Calculate the horizontal position and depth you would have after following the p
   <summary>Answer</summary>
 
   Your puzzle answer was **`1762050`**.
+
+  (*[solution](part-one.cpp)*)
 </details>
 
-<hr/>
+## Part Two
 
-### Part Two
 Based on your calculations, the planned course doesn't seem to make any sense. You find the submarine manual and discover that the process is actually slightly more complicated.
 
 In addition to horizontal position and depth, you'll also need to track a third value, **aim**, which also starts at `0`. The commands also mean something entirely different than you first thought:
@@ -51,8 +53,8 @@ In addition to horizontal position and depth, you'll also need to track a third 
 - `down X` increases your aim by `X` units.
 - `up X` decreases your aim by `X` units.
 - `forward X` does two things:
-    - It increases your horizontal position by `X` units.
-    - It increases your depth by your **aim multiplied** by `X`.
+  - It increases your horizontal position by `X` units.
+  - It increases your depth by your **aim multiplied** by `X`.
 
 Again note that since you're on a submarine, `down` and `up` do the opposite of what you might expect: "down" means aiming in the positive direction.
 
@@ -73,4 +75,6 @@ Using this new interpretation of the commands, calculate the horizontal position
   <summary>Answer</summary>
 
   Your puzzle answer was **`1855892637`**.
+
+  (*[solution](part-two.cpp)*)
 </details>

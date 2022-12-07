@@ -1,7 +1,7 @@
-# Day 03 - Binary Diagnostic
-![star count](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/kata-gatame/advent-of-code/main/2021/day-03/stars.json)
+# --- Day 03: Binary Diagnostic ---
 
-### Part One
+## Part One
+
 The submarine has been making some odd creaking noises, so you ask it to produce a diagnostic report just in case.
 
 The diagnostic report (your puzzle input) consists of a list of binary numbers which, when decoded properly, can tell you many useful things about the conditions of the submarine. The first parameter to check is the **power consumption**.
@@ -10,7 +10,7 @@ You need to use the binary numbers in the diagnostic report to generate two new 
 
 Each bit in the gamma rate can be determined by finding the **most common bit** in the **corresponding position** of all numbers in the diagnostic report. For example, given the following diagnostic report:
 
-```
+```text
 00100
 11110
 10110
@@ -41,11 +41,12 @@ Use the binary numbers in your diagnostic report to calculate the gamma rate and
   <summary>Answer</summary>
 
   Your puzzle answer was **`2972336`**.
+
+  (*[solution](part-one.cpp)*)
 </details>
 
-<hr/>
+## Part Two
 
-### Part Two
 Next, you should verify the **life support rating**, which can be determined by multiplying the **oxygen generator rating** by the **CO2 scrubber rating**.
 
 Both the oxygen generator rating and the CO2 scrubber rating are values that can be found in your diagnostic report - finding them is the tricky part. Both values are located using a similar process that involves filtering out values until only one remains. Before searching for either rating value, start with the full list of binary numbers from your diagnostic report and **consider just the first bit** of those numbers. Then:
@@ -83,4 +84,6 @@ Use the binary numbers in your diagnostic report to calculate the oxygen generat
   <summary>Answer</summary>
 
   Your puzzle answer was **`3368358`**.
+
+  (*[solution](part-two.cpp)*)
 </details>

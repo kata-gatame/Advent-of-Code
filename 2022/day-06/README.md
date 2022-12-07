@@ -37,6 +37,8 @@ Here are a few more examples:
   <summary>Answer</summary>
 
   Your puzzle answer was **`1640`**.
+
+  (*[solution](main.py)*)
 </details>
 
 ## Part Two
@@ -59,4 +61,6 @@ How many characters need to be processed before the first start-of-message marke
   <summary>Answer</summary>
 
   Your puzzle answer was **`3613`**.
+
+  (*[solution](main.py)*)
 </details>

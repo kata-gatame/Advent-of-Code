@@ -36,6 +36,8 @@ In this example, if you were to follow the strategy guide, you would get a total
   <summary>Answer</summary>
 
   Your puzzle answer was **`14069`**.
+
+  (*[solution](part-one.py)*)
 </details>
 
 ## Part Two
@@ -56,4 +58,6 @@ Following the Elf's instructions for the second column, **what would your total 
   <summary>Answer</summary>
 
   Your puzzle answer was **`12411`**.
+
+  (*[solution](part-two.py)*)
 </details>

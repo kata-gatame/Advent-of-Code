@@ -41,6 +41,8 @@ Find the item type that appears in both compartments of each rucksack. **What is
   <summary>Answer</summary>
 
   Your puzzle answer was **`7568`**.
+
+  (*[solution](part-one.py)*)
 </details>
 
 ## Part Two
@@ -79,4 +81,6 @@ Find the item type that corresponds to the badges of each three-Elf group. **Wha
   <summary>Answer</summary>
 
   Your puzzle answer was **`2780`**.
+
+  (*[solution](part-two.py)*)
 </details>
