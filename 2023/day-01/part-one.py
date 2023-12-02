@@ -3,8 +3,6 @@ def getData(input):
     return f.readlines()
 
 def getSum(data):
-    numberPhrases = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
-    
     sum = 0
     first = 0
     last = 0
@@ -28,17 +26,3 @@ def main():
     print("Part One - Calibration Values Sum: ", sum)
 
 main()
-
-
-
-
-
-
-
-# 
-# sum = 0
-
-# for line in data:
-
-
-# print("Calibration Values Sum: ", sum)

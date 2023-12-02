@@ -14,3 +14,4 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | Day | Title                                       | Stars |
 |-----|---------------------------------------------|-------|
 | 01  | [Trebuchet?!](day-01/)                      | ★ ★  |
+| 01  | [Cube Conundrum](day-02/)                   | ★ ★  |
