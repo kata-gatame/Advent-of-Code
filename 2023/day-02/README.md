@@ -67,7 +67,7 @@ The **power** of a set of cubes is equal to the numbers of red, green, and blue 
 <details>
   <summary>Answer</summary>
 
-  Your puzzle answer was **`WIP`**.
+  Your puzzle answer was **`70768`**.
 
   (*[solution](part-two.py)*)
 </details>
