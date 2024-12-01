@@ -15,7 +15,6 @@
 <a href="https://github.com/kata-gatame/advent-of-code/tree/main/2023">
 <img align="left" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2023%2Fstars.json">
 </a>
-<br />
 
 <a href="https://github.com/kata-gatame/advent-of-code/tree/main/2024">
 <img align="left" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2024%2Fstars.json">
