@@ -17,6 +17,11 @@
 </a>
 <br />
 
+<a href="https://github.com/kata-gatame/advent-of-code/tree/main/2024">
+<img align="left" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2024%2Fstars.json">
+</a>
+<br />
+
 ## Star Legend
 
 <p style="font-size:.8em;margin-top:-10px"><em>Each participation year is color-coded according to the amount of stars gained.</em></p>

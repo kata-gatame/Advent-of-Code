@@ -1,4 +1,4 @@
-# Advent of Code 2023
+# Advent of Code 2024
 
 ![star count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkata-gatame%2Fadvent-of-code%2Fmain%2F2024/stars.json)
 
