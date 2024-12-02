@@ -14,3 +14,4 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | Day | Title                                              | Stars |
 |-----|----------------------------------------------------|-------|
 | 01  | [Historian Hysteria](day-01/)                      | ★ ★  |
+| 02  | [Red-Nosed Reports](day-02/)                       | ★ ★  |
