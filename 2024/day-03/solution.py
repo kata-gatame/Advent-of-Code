@@ -7,7 +7,6 @@ def getData(input):
 def main(part):
   data = getData('2024\\day-03\\data\\input.txt')
   sum = 0
-  p2 = 0
   enabled = True
 
   for line in data:
