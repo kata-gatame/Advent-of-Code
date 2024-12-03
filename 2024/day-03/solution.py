@@ -5,8 +5,7 @@ import re
 
 def main(part):
   data = util.getData('03')
-  parse = re.findall('mul\\((\\d+),(\\d+)\\)|(don\'t\\(\\))|(do\\(\\))', data)
-
+  parse = re.findall(r'mul\((\d+),(\d+)\)|(don\'t\(\))|(do\(\))', data)
   enabled = True
   sum = 0
 
