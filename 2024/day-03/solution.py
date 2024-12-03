@@ -5,15 +5,13 @@ import re
 
 def main(part):
   data = util.getData('03')
-  parse = re.findall(r'mul\((\d+),(\d+)\)|(don\'t\(\))|(do\(\))', data)
+  parse = re.findall(r'mul\((\d+),(\d+)\)|(do\(\)|(don\'t\(\)))', data)
   enabled = True
   sum = 0
 
   for pair in parse:
-    if pair[2] != '':
-      enabled = False
-    elif pair[3] != '':
-      enabled = True
+    if pair[2] != '': enabled = True
+    if pair[3] != '': enabled = False
 
     if pair[0] and pair[1] and (enabled or part == 1):
       sum += int(pair[0]) * int(pair[1])
