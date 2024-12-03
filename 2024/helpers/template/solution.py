@@ -1,6 +1,6 @@
 import sys
 sys.path.insert(1, "./2024/helpers")
-import util as util
+import util
 
 def main(part):
   data = util.getData('00')
