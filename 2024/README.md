@@ -16,3 +16,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | 01  | [Historian Hysteria](day-01/)                      | ★ ★  |
 | 02  | [Red-Nosed Reports](day-02/)                       | ★ ★  |
 | 03  | [Mull It Over](day-03/)                            | ★ ★  |
+| 04  | [Ceres Search](day-04/)                            | ★ ★  |
+| 05  | [Print Queue](day-05/)                             | ★    |
+| 06  | [Guard Gallivant](day-06/)                         |       |
+| 07  | [Bridge Repair](day-07/)                           |       |
