@@ -11,6 +11,7 @@ def getSumOfMiddles(updates):
   return sum
 
 def reorderUpdate(update):
+  print(update)
   # magical reorder
   return update
 
@@ -41,13 +42,16 @@ def main(part):
           for x in range(len(p)):
             isValid = False if [p[x], p[x + 1]] not in rules else True
         if isValid:
-          invalid_ro.insert(1, p)
+          invalid.insert(1, p)
           break
 
   if part == 1:
     sum = getSumOfMiddles(valid)
 
   if part == 2:
+    for i in invalid:
+      invalid_ro.append(reorderUpdate(i))
+
     sum = getSumOfMiddles(invalid_ro)
 
   print(f'Part {part}: {sum}')
